@@ -1,2 +1,6 @@
 .venv/
-/datas
+# Ignore all files in the datas directory
+datas/*
+
+# But do not ignore .dvc files
+!datas/*.dvc
