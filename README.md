@@ -87,13 +87,11 @@ Installation and Setup
 
 1. Clone the Repository:
    ```bash
-   Copy code
    git clone https://github.com/yourusername/KAIM-week3.git
    cd KAIM-week3
    ```
 2. Set Up Virtual Environment:
    ```bash
-   Copy code
    python3 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
