@@ -83,6 +83,57 @@ AlphaCare Insurance Solutions (ACIS) aims to enhance risk and predictive analyti
      dvc push
      ```
 
+---
+
+### Task 3: A/B Hypothesis Testing
+
+#### Key Activities:
+
+1. **Define Null Hypotheses**:
+   - There are no risk differences across provinces.
+   - There are no risk differences between zip codes.
+   - There are no significant margin (profit) differences between zip codes.
+   - There are no significant risk differences between women and men.
+
+2. **Statistical Testing**:
+   - Perform ANOVA tests for risk and margin differences across provinces and zip codes.
+   - Conduct t-tests for risk differences by gender.
+   - Analyze p-values to accept or reject hypotheses.
+
+#### Key Deliverables:
+- **Insights from Statistical Tests**:
+  - Summarize the results of hypothesis testing.
+  - Visualize findings using box plots, bar charts, and statistical tables.
+  - Interpret the implications of the findings for business strategy.
+
+---
+
+### Task 4: Statistical Modeling
+
+#### Key Activities:
+
+1. **Data Preparation**:
+   - Handle missing data using imputation strategies.
+   - Perform feature engineering for `TotalPremium` and `TotalClaims`.
+   - Encode categorical data using one-hot encoding.
+   - Split data into training and test sets.
+
+2. **Modeling Techniques**:
+   - Implement:
+     - Linear Regression.
+     - Random Forest.
+     - Gradient Boosting Machines (e.g., XGBoost).
+
+3. **Model Evaluation**:
+   - Use metrics like RMSE, R2, and MAE for performance comparison.
+   - Visualize feature importance using SHAP.
+
+#### Key Deliverables:
+- **Model Performance Comparison**:
+  - Summarize model evaluation metrics in a table.
+  - Provide SHAP visualizations for feature interpretability.
+
+
 Installation and Setup
 
 1. Clone the Repository:
